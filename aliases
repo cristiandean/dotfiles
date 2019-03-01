@@ -1,0 +1,35 @@
+alias -- -='cd -'
+alias ...=../..
+alias ....=../../..
+alias .....=../../../..
+alias ......=../../../../..
+alias 1='cd -'
+alias 2='cd -2'
+alias 3='cd -3'
+alias 4='cd -4'
+alias 5='cd -5'
+alias 6='cd -6'
+alias 7='cd -7'
+alias 8='cd -8'
+alias 9='cd -9'
+
+alias rl='source ~/.bash_profile'
+alias d='dirs -v | head -10'
+alias ll='ls -lG'
+alias l='ls -la'
+alias prj='cd ~/projects'
+alias vpython='[ -d "../vpython-$(basename $(pwd))" ] || virtualenv ../vpython-$(basename $(pwd)); source ../vpython-$(basename $(pwd))/bin/activate'
+alias vpython3='[ -d "../vpython-$(basename $(pwd))" ] || virtualenv -p python3.7 ../vpython-$(basename $(pwd)); source ../vpython-$(basename $(pwd))/bin/activate'
+
+#git
+alias g=git
+alias gstl='git stash list'
+alias gsta='git stash save'
+alias gstaa='git stash apply'
+alias gstp='git stash pop'
+alias gst='git status'
+alias gcm='git checkout master'
+alias gcmsg='git commit -m'
+alias ga='git add'
+alias gcam='git commit -a -m'
+alias gcb='git checkout -b'
