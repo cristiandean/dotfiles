@@ -18,12 +18,14 @@ alias cfg='cd ~/my-configs'
 alias prj='cd ~/projects'
 alias gop='cd $GOPATH'
 
+
 alias loadnvm='source ~/my-configs/scripts/nvm'
 alias loadrvm='source ~/my-configs/scripts/rvm'
 alias rl='source ~/.bash_profile'
 alias d='dirs -v | head -10'
 alias ll='ls -lG'
 alias l='ls -la'
+alias f='find . -name'
 alias vpython='[ -d "../vpython-$(basename $(pwd))" ] || virtualenv ../vpython-$(basename $(pwd)); source ../vpython-$(basename $(pwd))/bin/activate'
 alias vpython3='[ -d "../vpython-$(basename $(pwd))" ] || virtualenv -p python3.7 ../vpython-$(basename $(pwd)); source ../vpython-$(basename $(pwd))/bin/activate'
 
