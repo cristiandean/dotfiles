@@ -17,7 +17,7 @@ alias 9='cd -9'
 alias cfg='cd ~/my-configs'
 alias prj='cd ~/projects'
 alias gop='cd $GOPATH'
-
+alias p='prj'
 
 alias loadnvm='source ~/my-configs/scripts/nvm'
 alias loadrvm='source ~/my-configs/scripts/rvm'
