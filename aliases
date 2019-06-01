@@ -14,10 +14,13 @@ alias 8='cd -8'
 alias 9='cd -9'
 
 
+alias h='cd ~'
 alias cfg='cd ~/my-configs'
 alias prj='cd ~/projects'
 alias gop='cd $GOPATH'
 alias p='prj'
+alias h='cd ~'
+
 
 alias loadnvm='source ~/my-configs/scripts/nvm'
 alias loadrvm='source ~/my-configs/scripts/rvm'
