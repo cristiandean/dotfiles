@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Cristian Dean
+	email = cristian.dean@corp.globo.com
+[pull]
+  rebase = true
+[alias]
+  reorder = "!GIT_SEQUENCE_EDITOR=\"sed -i -n 'h;1n;2p;g;p'\" git rebase -i HEAD~2"
+  co = "checkout"
+  cp = "cherry-pick"
+  cm = "checkout master"
+  b = "branch"
+  lg = log --pretty=oneline --abbrev-commit
