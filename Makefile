@@ -1,5 +1,4 @@
-
-install: run-conf
+reload: run-conf
 
 run-conf: git-conf tmux-conf vim-conf zsh-conf
 
