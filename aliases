@@ -15,14 +15,14 @@ alias 9='cd -9'
 
 
 alias h='cd ~'
-alias cfg='cd ~/my-configs'
+alias cfg='cd $DOTFILES_PATH'
 alias prj='cd ~/projects'
 alias gop='cd $GOPATH'
 alias p='prj'
-
+alias t='tmux'
 alias gg='~/go/bin/g'
-alias loadnvm='source ~/my-configs/scripts/nvm'
-alias rl='source ~/.bash_profile'
+alias loadnvm='source $DOTFILES_PATH/scripts/nvm'
+alias rl='source ~/.bash_profile && source $DOTFILES_PATH/.bash_profile'
 alias d='dirs -v | head -10'
 alias ll='ls -lG'
 alias l='ls -la'
