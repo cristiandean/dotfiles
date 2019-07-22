@@ -55,3 +55,4 @@ alias myip="ifconfig | grep --color=none -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' 
 alias hit='wrk -c 30 -d 30 -t 10 --latency'
 alias n='nnn'
 alias gvn="$HOME/go/bin/g"
+alias cat="bat"
