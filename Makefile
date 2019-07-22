@@ -4,7 +4,6 @@ run-conf: git-conf tmux-conf vim-conf zsh-conf
 
 vim-conf:
 	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
-	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
 	mkdir -p ${HOME}/.vim/
 	cp -rf ${DOTFILES_PATH}/vim/* ${HOME}/.vim/
 
@@ -20,3 +19,4 @@ zsh-conf:
 
 install-fonts:
 	${DOTFILES_PATH}/fonts/install.sh
+

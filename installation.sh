@@ -5,6 +5,9 @@
 brew install pt
 brew install zsh
 brew install htop
+brew install bat 
+brew install nnn 
+
 
 
 # Installing Oh My Zsh
