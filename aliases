@@ -53,4 +53,5 @@ alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias findf="find . -name "
 alias myip="ifconfig | grep --color=none -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep --color=none -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1' | head -n 1"
 alias hit='wrk -c 30 -d 30 -t 10 --latency'
-
+alias n='nnn'
+alias gvn="$HOME/go/bin/g"

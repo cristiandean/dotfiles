@@ -3,7 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/cristian.dean/.oh-my-zsh"
-export TERM=xterm-256color
+#export term=tmux
+export term=xterm-256color
 export ZSH_CUSTOM="$HOME/dotfiles/zsh"
 export DOTFILES_PATH="$HOME/dotfiles"
 # Set name of the theme to load --- if set to "random", it will
@@ -26,3 +27,5 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/.zshrc_theme
 source ~/dotfiles/.bash_profile
+
+export GOPATH="$HOME/go"; export GOROOT="$HOME/.go"; export PATH="$GOPATH/bin:$PATH"; # g-install: do NOT edit, see https://github.com/stefanmaric/g
