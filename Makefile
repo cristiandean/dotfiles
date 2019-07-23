@@ -17,6 +17,9 @@ tmux-conf:
 zsh-conf:
 	ln -f -s ${DOTFILES_PATH}/zsh/.zshrc ${HOME}/.zshrc
 
+keybinds-conf:
+	ln -f -s ${DOTFILES_PATH}/.inputrc ${HOME}/.inputrc
+
 install-fonts:
 	${DOTFILES_PATH}/fonts/install.sh
 
