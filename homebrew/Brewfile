@@ -9,6 +9,7 @@ bat
 nnn
 watchman
 wget
+jq
 
 cask 'atom'
 cask 'docker'
