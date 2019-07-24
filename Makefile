@@ -1,6 +1,6 @@
 reload: run-conf
 
-run-conf: git-conf tmux-conf vim-conf zsh-conf
+run-conf: git-conf tmux-conf vim-conf zsh-conf keybinds-conf
 
 vim-conf:
 	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
