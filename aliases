@@ -56,3 +56,5 @@ alias hit='wrk -c 30 -d 30 -t 10 --latency'
 alias n='nnn -d'
 alias gvn="$HOME/go/bin/g"
 alias cat="bat"
+alias f="fd"
+

@@ -10,6 +10,7 @@ nnn
 watchman
 wget
 jq
+fd
 
 cask 'atom'
 cask 'docker'
