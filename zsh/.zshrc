@@ -4,7 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/cristian.dean/.oh-my-zsh"
 #export term=tmux
-export term=xterm-256color
+export TERM=xterm-256color
 export ZSH_CUSTOM="$HOME/dotfiles/zsh"
 export DOTFILES_PATH="$HOME/dotfiles"
 # Set name of the theme to load --- if set to "random", it will
