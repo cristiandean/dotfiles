@@ -31,4 +31,3 @@ source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/.zshrc_theme
 source ~/dotfiles/.bash_profile
 
-export GOPATH="$HOME/go"; export GOROOT="$HOME/.go"; export PATH="$GOPATH/bin:$PATH"; # g-install: do NOT edit, see https://github.com/stefanmaric/g

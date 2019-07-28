@@ -21,7 +21,6 @@ alias gop='cd $GOPATH'
 alias p='prj'
 alias t='tmux'
 alias gg='~/go/bin/g'
-alias loadnvm='source $DOTFILES_PATH/scripts/nvm'
 alias rl='source ~/.bash_profile && source $DOTFILES_PATH/zsh/.zshrc'
 alias d='dirs -v | head -10'
 alias ll='ls -lG'
@@ -54,7 +53,6 @@ alias findf="find . -name "
 alias myip="ifconfig | grep --color=none -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep --color=none -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1' | head -n 1"
 alias hit='wrk -c 30 -d 30 -t 10 --latency'
 alias n='nnn -d'
-alias gvn="$HOME/go/bin/g"
 alias cat="bat"
 alias f="fd"
-
+alias a="asdf"

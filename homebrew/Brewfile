@@ -11,8 +11,8 @@ watchman
 wget
 jq
 fd
+asdf
 
-cask 'atom'
 cask 'docker'
 cask 'google-chrome'
 cask 'iterm2'

@@ -32,3 +32,8 @@ function pport {
 function kport {
   kill `pport "$1"`;
 }
+
+function loadasdf {
+. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+}
