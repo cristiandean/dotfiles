@@ -11,6 +11,7 @@ watchman
 wget
 jq
 fd
+gnupg
 asdf
 
 cask 'docker'
