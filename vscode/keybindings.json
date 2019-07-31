@@ -55,6 +55,7 @@
     "command": "editor.action.referenceSearch.trigger",
     "when": "editorTextFocus"
   },
+  { "key": "cmd+shift+w", "command": "workbench.action.closeAllEditors" },
   { "key": "cmd+shift+t", "command": "workbench.action.showAllSymbols" },
   { "key": "cmd+l", "command": "workbench.action.gotoLine" },
   { "key": "cmd+w", "command": "workbench.action.closeActiveEditor" },
@@ -100,5 +101,23 @@
   { "key": "cmd+6", "command": "workbench.action.openEditorAtIndex6" },
   { "key": "cmd+7", "command": "workbench.action.openEditorAtIndex7" },
   { "key": "cmd+8", "command": "workbench.action.openEditorAtIndex8" },
-  { "key": "cmd+9", "command": "workbench.action.openEditorAtIndex9" }
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-deleteLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "!searchViewletVisible"
+  }
 ]

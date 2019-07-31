@@ -1,7 +1,7 @@
 {
   "workbench.editor.enablePreview": false,
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 2,
   "eslint.alwaysShowStatus": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.formatOnSave": true,
