@@ -11,3 +11,6 @@
   cm = "checkout master"
   b = "branch"
   lg = log --pretty=oneline --abbrev-commit
+
+[core]
+  excludesfile = "~/.gitignore"

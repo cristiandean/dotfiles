@@ -1,6 +1,7 @@
 # backup/temp files
 *.bak
 *.tmp
+.tool-versions
 
 .vscode
 
