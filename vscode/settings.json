@@ -1,0 +1,16 @@
+{
+  "workbench.editor.enablePreview": false,
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "window.zoomLevel": 0,
+  "eslint.alwaysShowStatus": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
