@@ -1,4 +1,4 @@
-[submodule "fonts"]
+[submodule "fonts/powerline"]
 	path = fonts/powerline
 	url = git@github.com:powerline/fonts.git
 	branch = master
