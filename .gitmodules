@@ -1,7 +1,3 @@
-[submodule "fonts/powerline"]
-	path = fonts/powerline
-	url = git@github.com:powerline/fonts.git
-	branch = master
 [submodule "zsh/themes/powerlevel10k"]
 	path = zsh/themes/powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
@@ -9,3 +5,9 @@
 [submodule "zsh/plugins/zsh-autosuggestions"]
 	path = zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "fonts/powerline"]
+	path = fonts/powerline
+	url = https://github.com/chaconinc/DbConnector
+[submodule "fonts/powerline2"]
+	path = fonts/powerline2
+	url = git@github.com:powerline/fonts.git
