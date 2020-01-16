@@ -1,5 +1,5 @@
 [submodule "fonts"]
-	path = fonts
+	path = fonts/powerline
 	url = git@github.com:powerline/fonts.git
 	branch = master
 [submodule "zsh/themes/powerlevel10k"]
