@@ -7,7 +7,7 @@
 	url = https://github.com/zsh-users/zsh-autosuggestions
 [submodule "fonts/powerline"]
 	path = fonts/powerline
-	url = https://github.com/chaconinc/DbConnector
+	url = git@github.com:powerline/fonts.git
 [submodule "fonts/powerline2"]
 	path = fonts/powerline2
 	url = git@github.com:powerline/fonts.git
