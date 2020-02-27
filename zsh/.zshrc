@@ -7,6 +7,7 @@ export ZSH="/Users/cristian.dean/.oh-my-zsh"
 export TERM=xterm-256color
 export ZSH_CUSTOM="$HOME/dotfiles/zsh"
 export DOTFILES_PATH="$HOME/dotfiles"
+export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
