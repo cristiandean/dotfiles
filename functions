@@ -37,3 +37,9 @@ function loadasdf {
 . /usr/local/opt/asdf/asdf.sh
 . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 }
+
+function e(){
+    start=$(date +%s)
+    "$@"
+    [ $(($(date +%s) - start)) -le 1 ] ||  osascript -e "display notification \"Command '$(echo $@)' took $(($(date +%s) - start)) seconds to finish\""
+}
