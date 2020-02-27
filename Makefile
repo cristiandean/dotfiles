@@ -1,6 +1,6 @@
 reload: run-conf
 
-run-conf: git-conf tmux-conf vim-conf zsh-conf keybinds-conf vscode-conf
+run-conf: git-conf tmux-conf vim-conf zsh-conf keybinds-conf vscode-conf remap-keys
 
 vim-conf:
 	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
@@ -23,6 +23,9 @@ keybinds-conf:
 vscode-conf:
 	ln -f -s ${DOTFILES_PATH}/vscode/keybindings.json  ${HOME}/Library/Application\ Support/Code/User/keybindings.json 
 	ln -f -s ${DOTFILES_PATH}/vscode/settings.json  ${HOME}/Library/Application\ Support/Code/User/settings.json 
+
+remap-keys:
+	ln -f -s ${DOTFILES_PATH}/.remap-keys  ${HOME}/.remap-keys
 
 install-fonts:
 	${DOTFILES_PATH}/fonts/install.sh
