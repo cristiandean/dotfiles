@@ -2,18 +2,19 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-z
-pt
-zsh
-htop
-bat
-nnn
-watchman
-wget
-jq
-fd
-gnupg
-asdf
+brew "tmux"
+brew "z"
+brew "pt"
+brew "zsh"
+brew "htop"
+brew "bat"
+brew "nnn"
+brew "watchman"
+brew "wget"
+brew "jq"
+brew "fd"
+brew "gnupg"
+brew "asdf"
 
 cask 'docker'
 cask 'google-chrome'
