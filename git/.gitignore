@@ -124,6 +124,6 @@ Pkgfile
 # Fonts
 fonts/.local/share/fonts/.uuid
 fonts/.local/share/fonts/fonts.dir
-DS_Store
+.DS_Store
 
 node_modules
