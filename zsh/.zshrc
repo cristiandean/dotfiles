@@ -31,4 +31,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/.zshrc_theme
 source ~/dotfiles/.bash_profile
-
+source ~/dotfiles/.remap-keys
