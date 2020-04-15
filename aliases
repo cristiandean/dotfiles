@@ -29,7 +29,7 @@ alias f='find . -name'
 alias vp='[ -d "../vpython-$(basename $(pwd))" ] || virtualenv ../vpython-$(basename $(pwd)); source ../vpython-$(basename $(pwd))/bin/activate'
 alias vp3='[ -d "../vpython-$(basename $(pwd))" ] || virtualenv -p python3.7 ../vpython-$(basename $(pwd)); source ../vpython-$(basename $(pwd))/bin/activate'
 alias restart-camera='sudo killall VDCAssistant'
-
+alias ta="tmux attach -t"
 
 #git
 alias g=git
