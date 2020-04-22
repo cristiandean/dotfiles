@@ -5,7 +5,7 @@ run-conf: git-conf tmux-conf vim-conf zsh-conf keybinds-conf vscode-conf remap-k
 vim-conf:
 	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
 	mkdir -p ${HOME}/.vim/
-	cp -rf ${DOTFILES_PATH}/vim/* ${HOME}/.vim/
+	ln -f  -s ${DOTFILES_PATH}/vim ${HOME}/.vim
 
 git-conf:
 	ln -f  -s ${DOTFILES_PATH}/git/.gitconfig ${HOME}/.gitconfig
