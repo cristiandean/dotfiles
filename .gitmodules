@@ -11,3 +11,6 @@
 [submodule "fonts/powerline2"]
 	path = fonts/powerline2
 	url = git@github.com:powerline/fonts.git
+[submodule "vim/plugged/coc.nvim"]
+	path = vim/plugged/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git

@@ -1,3 +1,11 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
+
+
 " Don't try to be vi compatible
 set nocompatible
 
