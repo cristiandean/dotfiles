@@ -45,7 +45,8 @@ alias gcam='git commit -a -m'
 alias gcb='git checkout -b'
 alias gc-='git checkout -'
 alias gs='git show'
-
+alias gp='git push'
+alias gpm='git push origin master'
 
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
