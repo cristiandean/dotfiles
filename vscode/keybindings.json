@@ -1,5 +1,8 @@
 [
-  { "key": "cmd+shift+r", "command": "workbench.action.quickOpen" },
+  {
+    "key": "cmd+shift+r",
+    "command": "workbench.action.quickOpen"
+  },
   {
     "key": "cmd+shift+f",
     "command": "editor.action.format",
@@ -55,13 +58,34 @@
     "command": "editor.action.referenceSearch.trigger",
     "when": "editorTextFocus"
   },
-  { "key": "cmd+shift+w", "command": "workbench.action.closeAllEditors" },
-  { "key": "cmd+shift+t", "command": "workbench.action.showAllSymbols" },
-  { "key": "cmd+l", "command": "workbench.action.gotoLine" },
-  { "key": "cmd+w", "command": "workbench.action.closeActiveEditor" },
-  { "key": "cmd+shift+s", "command": "workbench.action.files.saveAs" },
-  { "key": "cmd+alt+s", "command": "workbench.action.files.saveAll" },
-  { "key": "cmd+alt+f", "when": "editorTextFocus" },
+  {
+    "key": "cmd+shift+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "cmd+shift+s",
+    "command": "workbench.action.files.saveAs"
+  },
+  {
+    "key": "cmd+alt+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "cmd+alt+f",
+    "when": "editorTextFocus"
+  },
   {
     "key": "cmd+shift+c",
     "command": "editor.action.commentLine",
@@ -93,14 +117,38 @@
     "key": "alt+cmd+left",
     "command": "-workbench.action.previousEditor"
   },
-  { "key": "cmd+1", "command": "workbench.action.openEditorAtIndex1" },
-  { "key": "cmd+2", "command": "workbench.action.openEditorAtIndex2" },
-  { "key": "cmd+3", "command": "workbench.action.openEditorAtIndex3" },
-  { "key": "cmd+4", "command": "workbench.action.openEditorAtIndex4" },
-  { "key": "cmd+5", "command": "workbench.action.openEditorAtIndex5" },
-  { "key": "cmd+6", "command": "workbench.action.openEditorAtIndex6" },
-  { "key": "cmd+7", "command": "workbench.action.openEditorAtIndex7" },
-  { "key": "cmd+8", "command": "workbench.action.openEditorAtIndex8" },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
   {
     "key": "cmd+9",
     "command": "workbench.action.openEditorAtIndex9"
@@ -118,5 +166,18 @@
     "key": "shift+cmd+f",
     "command": "-workbench.view.search",
     "when": "!searchViewletVisible"
+  },
+  {
+    "key": "cmd+h",
+    "command": "search.action.openNewEditor"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "actions.findWithSelection"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-cursorRight",
+    "when": "textInputFocus"
   }
 ]
