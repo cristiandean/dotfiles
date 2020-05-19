@@ -5,7 +5,7 @@
   "eslint.alwaysShowStatus": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
+  "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true,
     "source.fixAll.eslint": true,
@@ -13,25 +13,30 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.formatOnSave": false,
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "python.jediEnabled": false,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
   "editor.wordWrapColumn": 130,
   "workbench.colorTheme": "Dracula",
+  "local-history.daysLimit": 10,
+  "local-history.maxDisplay": 20,
+  "local-history.saveDelay": 0,
+  "local-history.dateLocale": "pt-BR",
+  "local-history.path": "~/.vs-history",
+  "local-history.absolute": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.columnSelection": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "editor.minimap.enabled": false,
 }
