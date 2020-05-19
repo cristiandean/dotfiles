@@ -14,3 +14,6 @@
 [submodule "vim/plugged/coc.nvim"]
 	path = vim/plugged/coc.nvim
 	url = git@github.com:neoclide/coc.nvim.git
+[submodule "tmux/tmux-thumbs"]
+	path = tmux/tmux-thumbs
+	url = https://github.com/fcsonline/tmux-thumbs
