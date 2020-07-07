@@ -43,3 +43,24 @@ function e(){
     "$@"
     [ $(($(date +%s) - start)) -le 1 ] ||  osascript -e "display notification \"Command '$(echo $@)' took $(($(date +%s) - start)) seconds to finish\""
 }
+
+letsgo(){
+  if ! [[ -z "$GOPATH" ]]; then
+    echo "GOPATH has already been set"
+    return 1
+  fi
+
+
+  GOEXEC=`asdf which go`
+  GOEXECDIR=`dirname $GOEXEC`
+
+  GOPATH=`realpath "$GOEXECDIR/../../packages"`
+  GOBIN="$GOPATH/bin"
+  echo "GOBIN: $GOBIN"
+  echo "GOPATH: $GOPATH"
+  echo "PATH: has been updated with GOBIN"
+  export GOPATH=$GOPATH
+  export GOBIN=$GOBIN
+  export PATH="$PATH:$GOBIN"
+  return 0
+}

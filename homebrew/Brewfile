@@ -15,6 +15,7 @@ brew "jq"
 brew "fd"
 brew "gnupg"
 brew "asdf"
+brew "lazygit"
 
 cask 'docker'
 cask 'google-chrome'

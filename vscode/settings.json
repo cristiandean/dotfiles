@@ -1,20 +1,19 @@
 {
   "workbench.editor.enablePreview": false,
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "eslint.alwaysShowStatus": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.formatOnSave": true,
   "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true,
-    "source.fixAll.eslint": true,
-  },
+  "editor.codeActionsOnSave": {},
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.fixAll.tslint": true,
+      "source.fixAll.eslint": true,
+      // "source.organizeImports": true
     }
   },
   "[json]": {
@@ -34,7 +33,7 @@
   "local-history.dateLocale": "pt-BR",
   "local-history.path": "~/.vs-history",
   "local-history.absolute": false,
-  "editor.multiCursorModifier": "alt",
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.columnSelection": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
