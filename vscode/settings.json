@@ -1,7 +1,7 @@
 {
   "workbench.editor.enablePreview": false,
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": -1,
   "eslint.alwaysShowStatus": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.formatOnSave": true,
@@ -26,7 +26,6 @@
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
   "editor.wordWrapColumn": 130,
-  "workbench.colorTheme": "Dracula",
   "local-history.daysLimit": 10,
   "local-history.maxDisplay": 20,
   "local-history.saveDelay": 0,
@@ -37,5 +36,12 @@
   "editor.columnSelection": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "editor.minimap.enabled": false,
+"editor.minimap.enabled": false,
+"python.languageServer": "Pylance",
+"tabnine.experimentalAutoImports": true,
+"search.exclude": {
+  "stats.json": true
+},
+"workbench.colorTheme": "Dracula",
+"todo-tree.tree.showScanModeButton": false,
 }

@@ -16,6 +16,8 @@ brew "fd"
 brew "gnupg"
 brew "asdf"
 brew "lazygit"
+brew "exa"
+
 
 cask 'docker'
 cask 'google-chrome'

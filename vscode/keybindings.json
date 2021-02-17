@@ -155,11 +155,6 @@
   },
   {
     "key": "ctrl+h",
-    "command": "-deleteLeft",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+h",
     "command": "workbench.view.search"
   },
   {
@@ -179,5 +174,55 @@
     "key": "ctrl+f",
     "command": "-cursorRight",
     "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "editor.action.peekImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+cmd+f12",
+    "command": "-editor.action.peekImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+i",
+    "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "f10",
+    "command": "extension.aceJump.multiChar"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorPageUp"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorPageDown"
+  },
+  {
+    "key": "cmd+k",
+    "command": "editor.action.goToReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+u",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   }
 ]
