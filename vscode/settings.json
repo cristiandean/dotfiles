@@ -13,35 +13,120 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.tslint": true,
       "source.fixAll.eslint": true,
-      // "source.organizeImports": true
     }
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "python.jediEnabled": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
   "editor.wordWrapColumn": 130,
-  "local-history.daysLimit": 10,
-  "local-history.maxDisplay": 20,
-  "local-history.saveDelay": 0,
-  "local-history.dateLocale": "pt-BR",
-  "local-history.path": "~/.vs-history",
-  "local-history.absolute": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.columnSelection": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-"editor.minimap.enabled": false,
-"python.languageServer": "Pylance",
-"tabnine.experimentalAutoImports": true,
-"search.exclude": {
-  "stats.json": true
-},
-"workbench.colorTheme": "Dracula",
-"todo-tree.tree.showScanModeButton": false,
+  "editor.minimap.enabled": false,
+  "python.languageServer": "Pylance",
+  "tabnine.experimentalAutoImports": true,
+  "search.exclude": {
+    "stats.json": true
+  },
+  "workbench.colorTheme": "Dracula",
+  "todo-tree.tree.showScanModeButton": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "<tab>"
+      ],
+      "after": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "<S-tab>"
+      ],
+      "after": [
+        "workbench.action.previousEditor"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "t"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.splitEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "revealInExplorer"
+      ],
+    },
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "vim.enableNeovim": true
 }
