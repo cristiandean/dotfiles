@@ -9,3 +9,4 @@ export BAT_CONFIG_PATH="$DOTFILES_PATH/.batconfig"
 
 export NNN_USE_EDITOR=1
 export EDITOR=vim
+export EXA_COLORS="da=2" 

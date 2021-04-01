@@ -234,5 +234,15 @@
     "key": "space t",
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "!editorTextFocus"
-  }
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-extension.vim_ctrl+h",
+    "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "filesExplorer.findInWorkspace",
+    "when": ""
+  },
 ]

@@ -128,5 +128,6 @@
       "filenamePattern": "*.ipynb"
     }
   ],
-  "vim.enableNeovim": true
+  "vim.enableNeovim": true,
+  "go.toolsManagement.autoUpdate": true
 }

@@ -1,6 +1,9 @@
 reload: run-conf
 
-run-conf: git-conf tmux-conf vim-conf zsh-conf keybinds-conf vscode-conf remap-keys
+run-conf: git-conf p10k-conf tmux-conf vim-conf zsh-conf keybinds-conf vscode-conf remap-keys
+
+p10k-conf:
+	ln -f -s ${DOTFILES_PATH}/.p10k.zsh ${HOME}/.p10k.zsh
 
 vim-conf:
 	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
