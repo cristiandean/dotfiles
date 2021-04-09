@@ -7,7 +7,7 @@ p10k-conf:
 
 vim-conf:
 	ln -f  -s ${DOTFILES_PATH}/vim/.vimrc ${HOME}/.vimrc
-	mkdir -p ${HOME}/.vim/
+	rm -rf ${HOME}/.vim/
 	ln -f  -s ${DOTFILES_PATH}/vim ${HOME}/.vim
 
 git-conf:
