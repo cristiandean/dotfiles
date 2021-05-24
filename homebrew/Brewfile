@@ -25,3 +25,5 @@ cask 'iterm2'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'authy'
+cask 'iglance'
+

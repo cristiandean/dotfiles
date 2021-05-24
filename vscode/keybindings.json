@@ -155,7 +155,7 @@
   },
   {
     "key": "ctrl+h",
-    "command": "workbench.view.search"
+    "command": "workbench.action.findInFiles"
   },
   {
     "key": "shift+cmd+f",
@@ -224,25 +224,5 @@
     "key": "cmd+u",
     "command": "editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-  },
-  // {
-  //   "key": "ctrl+alt+cmd+h",
-  //   "command": "extension.vim_ctrl+h",
-  //   "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
-  // }
-  {
-    "key": "space t",
-    "command": "workbench.action.toggleSidebarVisibility",
-    "when": "!editorTextFocus"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "-extension.vim_ctrl+h",
-    "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "filesExplorer.findInWorkspace",
-    "when": ""
-  },
+  }
 ]

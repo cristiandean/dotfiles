@@ -1,7 +1,6 @@
 {
   "workbench.editor.enablePreview": false,
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": -1,
   "eslint.alwaysShowStatus": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.formatOnSave": true,
@@ -122,12 +121,12 @@
     "<C-a>": false,
     "<C-f>": false
   },
+  "vim.enableNeovim": true,
+  "go.toolsManagement.autoUpdate": true,
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
       "filenamePattern": "*.ipynb"
     }
-  ],
-  "vim.enableNeovim": true,
-  "go.toolsManagement.autoUpdate": true
+  ]
 }
