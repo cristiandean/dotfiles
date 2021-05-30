@@ -33,6 +33,10 @@ function kport {
   kill `pport "$1"`;
 }
 
+function wp {
+  open $DOTFILES_PATH/webcam-preview.html;
+}
+
 function loadasdf {
 . /usr/local/opt/asdf/asdf.sh
 . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
