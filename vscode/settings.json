@@ -135,11 +135,8 @@
     "<C-f>": false
   },
   "vim.enableNeovim": true,
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "window.zoomLevel": -1
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "files.defaultLanguage": "${activeEditorLanguage}"
 }
